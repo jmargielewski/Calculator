@@ -1,5 +1,7 @@
-# Calculator 
+# Calculator
 
-Binary / Decimal Calculator made with ECMAScript6 
+## Binary & Decimal Calculator
 
+### HTML SASS JAVASCRIPT ES6 WEBPACK
 
+#### https://jmargielewski.github.io/Calculator/

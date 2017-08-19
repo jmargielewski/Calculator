@@ -14,8 +14,6 @@ $text-color: #8D8276;
 $interface: #545E6E;
 $highlight: white;
 
-
-
 body {
 	background: $background;
 }
@@ -42,7 +40,6 @@ h2 {
 section {
 	margin-bottom:50px;
 }
-
 
 .binary-calculator, .dec-calculator{
 	display: block;
@@ -75,7 +72,6 @@ section {
 		&:hover {
 			font-size: $block-size*.5;
 		}
-
 	}
 
 	%display-number__value {
@@ -92,7 +88,6 @@ section {
 		@extend %display-number__value;
 		color: $text-color;
 	}
-
 
 	.result-bit {
 		.display-number__value--zero,
@@ -113,7 +108,6 @@ section {
 
 		span {
 			// content: '+';
-
 			font-size: $block-size;
 			position: absolute;
 			top: $block-size * -1;
@@ -123,8 +117,6 @@ section {
 			cursor: pointer;
 		}
 	}
-
-
 
 	@for $i from 0 through $columns {
 		.group-number:nth-of-type(#{$i + 1}) {
@@ -146,7 +138,6 @@ section {
 	.display-18 {
 		visibility: hidden;
 	}
-
 
 	.result-9 {
 		border-bottom: 5px solid lighten($background, 10%);
@@ -202,9 +193,9 @@ section {
   border-color: #666666 transparent transparent transparent;
   border-style: solid;
   border-width: 10px;
-  height:0;
-  width:0;
-  position:absolute;
-  bottom:-22px;
-  left:30px;
+  height: 0;
+  width: 0;
+  position: absolute;
+  bottom: -22px;
+  left: 30px;
 }
